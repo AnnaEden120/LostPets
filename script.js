@@ -1,8 +1,3 @@
-//var form=documet.getElementById('form-box');
-
-//form-box.addEventListener('submit', function(event){
-	//event.preventDefault()//prevents the form from autosubmitting
-//});
 
 const repbtn = document.getElementById('repbtn');
 
@@ -13,5 +8,17 @@ repbtn.addEventListener('click', () => {
     form.style.visibility = 'visible';
   } else {
     form.style.visibility = 'hidden';
+  }
+});
+
+const srcbtn = document.getElementById('srcbtn');
+
+srcbtn.addEventListener('click', () => {
+  const form = document.getElementById('table');
+
+  if (table.style.visibility === 'hidden') {
+    table.style.visibility = 'visible';
+  } else {
+    table.style.visibility = 'hidden';
   }
 });
