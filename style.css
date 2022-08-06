@@ -1,0 +1,59 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family:'Source Serif Pro', serif;;
+
+}
+
+html{
+ background-image: url("pets2.png");
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-position: left;
+ background-size: cover;
+}
+
+body{
+	color: darkblue;
+	padding: 0;
+	margin: 10px;
+	text-align: center;
+
+}
+.navbarmain{
+	background-color: lightblue;
+	display: block;
+	border: 10px;
+	padding: 10px;
+}
+
+.logo{
+	font-family: font-family: 'Tiro Gurmukhi', serif;
+	font-weight: bold;
+	font-size: 30px;
+	border: 10px;
+	padding: 10px;
+	border-right: 50px;
+}
+
+.nav{
+	justify-content: left;
+	display: flex;
+}
+
+.searchbox{
+	border: 10px;
+	padding: 10px;
+}
+
+#srcbtn, #repbtn {
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 5px;
+	
+}
+
+#container{
+	padding: 10px;
+	visibility: hidden;
+}

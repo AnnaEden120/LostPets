@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tiro+Gurmukhi&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@300&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Lost Pets</title>
+</head>
+<body>
+<section class="navbarmain">
+		<nav class="nav">
+			<div class="logo">LOST PETS</div>
+			<div class="searchbox">
+				<button id="srcbtn" type="submit">Search</button>
+				<button id="repbtn" type="submit">Report</button>
+			</div>
+		</nav>
+	</section>
+
+	<div id="container">
+	<div id="main">
+		<div id="form-div">
+			<form id="form-box">
+				<h3>Have you found a stray pet on the street?<br> 
+				Please report here and help the owners find it<br></h3>
+				<input type="text" name="petname" placeholder="Your Name"><br>
+				<input type="text" name="city" placeholder="city"><br>
+				<input type="text" name="description" placeholder="Description"><br>
+				<input class="fille-upload-input" type="file" onchange="readURL(this)" accept="Image/*"><br>
+				<input type="text" name="contact" placeholder="Your contact details"><br>
+				<button>Submit</button><br>
+			</form>
+		</div>
+	</div>
+	</div>
+
+	
+
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
