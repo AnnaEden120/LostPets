@@ -32,32 +32,49 @@
 				<input type="text" name="petname" placeholder="Your Name"><br>
 				<input type="text" name="city" placeholder="city"><br>
 				<input type="text" name="description" placeholder="Description"><br>
+				<label for="myfile">Upload a picture:</label>
+				<input type="file" id="myfile" name="myfile"><br>
 				<input type="text" name="contact" placeholder="Your contact details"><br>
-				<button>Submit</button><br>
+				<button onclick="editRow()" class="editRowBtn">Submit</button><br>
 			</form>
 		</div>
 	</div>
 	</div>
 
-	<div class="table-refresh" data-data-url="/data">
-		<table class="table-refresh_table">
-			<h4>List of report stray pets</h4>
+	<div class="table-pets">
+		<table id="table1">
 			<thead>
-			<tr>
-				<th>Name</th>
-				<th>City</th>
-				<th>Description</th>
-				<th>Contact</th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr>
-			<td></td>
-			<td></td>
-			<td></td>
-			</tr>
-		</tbody>
-		</table>
+			   <tr>
+				  <th>Name</th>
+				  <th>City</th>
+				  <th>Description</th>
+				  <th>Picture</th>
+				  <th>Contact</th>
+			   </tr>
+			   <tr>
+				<td>Anna</td>
+				<td>Netanya</td>
+				<td>Found a grey cat in my yard</td>
+				<td><img src="cat1.jpg"></td>
+				<td>0545423309</td>
+			  </tr>
+			  <tr>
+				<td>Danny</td>
+				<td>Haifa</td>
+				<td>Found a brown dog next to playground</td>
+				<td><img src="dog1.png"></td>
+				<td>0532445861</td>
+			  </tr>
+			  <tr>
+				<td>Avi</td>
+				<td>Tel-Aviv</td>
+				<td>Found a black cat in my parking lot</td>
+				<td><img src="cat2.jpeg"></td>
+				<td>0532452467</td>
+			  </tr>
+			</thead>
+		 </table>
+	   
 	</div>
 
 

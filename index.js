@@ -1,4 +1,15 @@
 const {Client} = require ('pg');
+const express= require("express");
+const chance= require("chance").Chance();
+const shuffleArray= require("shuffle-array");
+
+const app=express();
+
+app.get("/data", (req, res)=>{
+	res.send("hey dom");
+});
+
+app.listen(3001, ()=>console("app is running"));
 
 const client =new Client({
 	user:"postgres",
@@ -8,9 +19,7 @@ const client =new Client({
 	database:"lost_pets"
 });
 
-const data={
-	headers:["Name", "City", "Description", "Contact"]
-}
+
 
 client.connect()
 .then(()=> console.log("Connected Successfuly"))

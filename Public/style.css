@@ -25,7 +25,7 @@ body{
 }
 
 .logo{
-	font-family: font-family: 'Tiro Gurmukhi', serif;
+	font-family: 'Tiro Gurmukhi', serif;
 	font-weight: bold;
 	font-size: 30px;
 	border: 10px;
@@ -57,28 +57,31 @@ body{
 	justify-self: center;
 }
 
-.table-refresh{
-	font-size: 14px;
-	align-self: center;
-	justify-self: center;
-	visibility: visible;
+
+
+
+#table1{
+	width:  800px;
+	margin: 30px auto;
+	visibility: hidden;
 }
 
-.table-refresh_table{
-	border-collapse: collapse;
-	box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-	border-bottom: 2px solid blue;
-	align-self: center;
-	justify-items: center;
+#table1 th{
+	padding: 10px 0;
+	background-color: #f4f4f4;
+	/* background-color: #fff; */
+	border:  thin solid #d4d4d4;
 }
 
-.table-refresh_table thead tr{
-	background: lightblue;
-}
-
-.table-refresh_table th, td{
+#table1 td{
+	padding: 10px;
+	border:  thin solid #d4d4d4;
+	width: 18%;
 	text-align: center;
-	padding: 9px 18px;
-	
+	background-color: #fff;
+}
+
+#table1 img{
+	width: 100%;
 }
 

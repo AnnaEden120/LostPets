@@ -1,0 +1,47 @@
+[
+        {
+           "id": 1,
+           "name": "Anna",
+           "city": "Netanya",
+           "description": "Found a grey cat in my yard",
+           "contact": "0545423309"
+        },
+
+        
+        {
+            "id": 2,
+            "name": "Danny",
+            "city": "Haifa",
+            "description": "Found a brown dog next to playground",
+            "contact": "0532445861"
+         },
+
+         
+        {
+            "id": 3,
+            "name": "Avi",
+            "city": "Tel-Aviv",
+            "description": "Found a black cat in my parking lot",
+            "contact": "0532452467"
+         },
+
+         
+        {
+            "id": 4,
+            "name": "Livnat",
+            "city": "Ra'anana",
+            "description": "Found a cute little puppy, without a collar",
+            "contact": "0586753256"
+         },
+
+
+         
+        {
+            "id": 5,
+            "name": "Benny",
+            "city": "Hadera",
+            "description": "Found a lost kitten, with a collar",
+            "contact": "0523451019"
+         }
+
+]
