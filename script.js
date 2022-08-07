@@ -14,11 +14,10 @@ repbtn.addEventListener('click', () => {
 const srcbtn = document.getElementById('srcbtn');
 
 srcbtn.addEventListener('click', () => {
-  const form = document.getElementById('table');
-
-  if (table.style.visibility === 'hidden') {
-    table.style.visibility = 'visible';
-  } else {
-    table.style.visibility = 'hidden';
+  const table = document.getElementById('table-refresh');
+  if (table.style.visibility==='hidden'){
+    table.style.visibility='visible';
+  } else{
+    table.style.visibility='hidden';
   }
 });

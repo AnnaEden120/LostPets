@@ -50,15 +50,6 @@ body{
 	
 }
 
-#one{
-	border: 2px;
-	display: grid;
-	grid-template-columns: 1fr;
-	grid-auto-rows: 1fr;
-	grid-template-areas: "overlap";
-
-}
-
 #container{
 	padding: 10px;
 	visibility: hidden;
@@ -66,13 +57,28 @@ body{
 	justify-self: center;
 }
 
-#table: {
-	padding: 10px;
-	visibility: hidden;
+.table-refresh{
+	font-size: 14px;
+	align-self: center;
+	justify-self: center;
+	visibility: visible;
 }
 
-.rows{
-	justify-self: center;
+.table-refresh_table{
+	border-collapse: collapse;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+	border-bottom: 2px solid blue;
 	align-self: center;
+	justify-items: center;
+}
+
+.table-refresh_table thead tr{
+	background: lightblue;
+}
+
+.table-refresh_table th, td{
+	text-align: center;
+	padding: 9px 18px;
+	
 }
 

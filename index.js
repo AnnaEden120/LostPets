@@ -8,6 +8,10 @@ const client =new Client({
 	database:"lost_pets"
 });
 
+const data={
+	headers:["Name", "City", "Description", "Contact"]
+}
+
 client.connect()
 .then(()=> console.log("Connected Successfuly"))
 .then(()=>client.query("select * from pets_table"))
