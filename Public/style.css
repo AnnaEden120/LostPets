@@ -52,18 +52,28 @@ body{
 
 #container{
 	padding: 10px;
-	visibility: hidden;
 	align-self: center;
 	justify-self: center;
+	visibility: hidden;
+	
+	
+	
 }
 
 
 
+#table-pets{
+	visibility: hidden;
+}
 
 #table1{
-	width:  800px;
+	width: 1000px;
 	margin: 30px auto;
-	visibility: hidden;
+	
+}
+
+thead{
+	width: 200px;
 }
 
 #table1 th{

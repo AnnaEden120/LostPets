@@ -22,26 +22,26 @@
 			</div>
 		</nav>
 	</section>
-<div id="one">
+
 	<div id="container">
 	<div id="main">
 		<div id="form-div">
 			<form id="form-box">
 				<h3>Have you found a stray pet on the street?<br> 
 				Please report here and help the owners find it<br></h3>
-				<input type="text" name="petname" placeholder="Your Name"><br>
-				<input type="text" name="city" placeholder="city"><br>
-				<input type="text" name="description" placeholder="Description"><br>
+				<input type="text" name="petname" placeholder="Your Name" id="name"><br>
+				<input type="text" name="city" placeholder="city" id="city"><br>
+				<input type="text" name="description" placeholder="Description" id="description"><br>
 				<label for="myfile">Upload a picture:</label>
-				<input type="file" id="myfile" name="myfile"><br>
-				<input type="text" name="contact" placeholder="Your contact details"><br>
+				<input type="file" id="myfile" name="myfile" id="picture"><br>
+				<input type="text" name="contact" placeholder="Your contact details" id="contact"><br>
 				<button onclick="editRow()" class="editRowBtn">Submit</button><br>
 			</form>
 		</div>
 	</div>
-	</div>
+	
 
-	<div class="table-pets">
+	<div id="table-pets">
 		<table id="table1">
 			<thead>
 			   <tr>
@@ -74,8 +74,11 @@
 			  </tr>
 			</thead>
 		 </table>
-	   
+		 <div class="updateBtn">
+			<button  onclick="editTableDisplay()">Update data</button>
+		</div>
 	</div>
+	
 
 
 
